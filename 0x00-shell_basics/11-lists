@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -R -al -n
+ ls * .. /boot -lan
