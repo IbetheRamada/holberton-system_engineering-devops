@@ -1,2 +1,3 @@
 #!/bin/bash
-/root/holbertonschool/holberton-system_engineering-devops/0x00-shell_basics
+dirname "$(realpath $0)"
+
