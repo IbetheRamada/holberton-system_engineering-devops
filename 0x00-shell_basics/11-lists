@@ -1,2 +1,2 @@
 #!/bin/bash
-ls * /root/holbertonschool/holberton-system_engineering-devops -al -n
+ls -R -al -n
