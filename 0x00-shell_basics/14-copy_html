@@ -1,2 +1,2 @@
 #!/bin/bash
-cp . .. .html bak
+cp -n *.html ../ 
