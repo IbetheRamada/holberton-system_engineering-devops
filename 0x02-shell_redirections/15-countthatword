@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -o -i iacta | wc -l
+grep -c "bin" /etc/passwd
