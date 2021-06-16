@@ -1,2 +1,0 @@
-#!/bin/bash
-awk '!visited [$14]++ { print $0 }' iacta 
