@@ -1,0 +1,2 @@
+#!/bin/bash
+find . | tr 'A' 'Z'| tr 'c' 'e' 
