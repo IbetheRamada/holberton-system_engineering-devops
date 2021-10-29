@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#Write a Bash script that displays numbers from 1 to 20
+i=0
+while [ $i -lt 21 ]
+do
+    if [ $i = 4 ]
+    then
+        echo "4"
+        echo "bad luck from China"
+    elif [ $i = 9 ]
+    then
+        echo "9"
+        echo "bad luck from Japan"
+    elif [ $i = 17 ]
+    then
+        echo "17" 
+        echo "bad luck from Italy"
+    else
+        echo $i
+    fi
+        ((i++))
+done
