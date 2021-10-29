@@ -3,7 +3,7 @@
 i=0
 while [ $i -lt 11 ]
 do
-    if [ $i = 4 ]
+    if [ $i = 3 ]
     then
         echo "bad luck"
     elif [ $i = 8 ]
