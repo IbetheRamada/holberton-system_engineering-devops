@@ -3,4 +3,4 @@
 
 echo -e "127.0.0.1\tlocalhost\n8.8.8.8\tfacebook.com" > /tmp/newfile
 cat /etc/hosts >> /tmp/newfile
-sudo cp /tmp/newfile /etc/hosts
+cp /tmp/newfile /etc/hosts
